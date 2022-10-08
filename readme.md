@@ -66,19 +66,19 @@ transliterate('Я люблю единорогов', {
 
 ## Supported languages
 
-Most major languages are supported.
+Most major languages are supported. Some of the languages are disabled (commented out) by default in `replacements.js` for conflicting with other languages.
 
 This includes special handling for:
 
 - Arabic
 - Armenian
 - Czech
-- Danish
+- Danish (disabled by default)
 - Dhivehi
 - Georgian
 - German (umlauts)
 - Greek
-- Hungarian
+- Hungarian (disabled by default)
 - Latin
 - Latvian
 - Lithuanian
@@ -88,9 +88,9 @@ This includes special handling for:
 - Polish
 - Romanian
 - Russian
-- Serbian
-- Slovak
-- Swedish
+- Serbian (disabled by default)
+- Slovak (disabled by default)
+- Swedish/Finnish (disabled by default)
 - Turkish
 - Ukrainian
 - Urdu
